@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch- Kullanıcı Hesap Yönetimi</title>
+    <link icon="x-icon" href="resimler/scratch-logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <div class="first">
+                <label for="checked" class=checkbtn>
+
+                    <i class="fas fa-bars"></i></label>
+
+                <a href="index.html"><img src="resimler/scratch-logo.jpg" alt="logo"></a>
+            </div>
+
+            <div class="input">
+                <i class="material-icons">search</i><input type="text" placeholder="Ara">
+            </div>
+
+            <div class="buttons">
+                <a href="kullaniciHesap.html"><img src="resimler/scratch-robot.jpg" title="Hesabınız" ></a>
+            </div>
+        </div><input type="checkbox" id="checked">
+
+
+        <div class="left-side">
+            <div class="kapsayici importent"><i class="fas fa-clock"></i>
+                <h3><a href="index.html">Ana Sayfa</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="ebeveyn.html">Ebevenler için Bilgi</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="egitimcilerIcin.html">Eğitimciler için Bilgi</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="gizlilik-ilkeleri.html">Gizlilik İlkeleri</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="kullanim-sartlari.html">Kullanım Şartları</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="scratch-hakkinda.html">Scratch Hakkında</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="en-yeniler.html">En Yeniler</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="goster1.html">Öğrenme Yolu-1</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="goster2.html">Öğrenme Yolu-2</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="goster3.html">Öğrenme Yolu-3</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="goster4.html">Öğrenme Yolu-4</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3><a href="goster5.html">Öğrenme Yolu-5</a></h3>
+            </div>
+            <div class="kapsayici"><i class="fas fa-clock"></i>
+                <h3> <a href="kullaniciHesap.html">Kayıt Girişi</a> </h3>
+            </div>
+        </div>
+
+        <div class="center-side">
+            <div class="top-side">
+                <a href="scratch-hakkinda.html"><button>Scratch Hakkında</button></a>
+                <a href="ebeveyn.html"><button>Ebeveynler için</button></a>
+                <a href="egitimci.html"><button>Eğitimciler için</button></a>
+            </div>
+
+            <form>
+                <table>
+                    <tr><td>Adınız: </td> <td><input type="text" placeholder="Adınız"></td>
+                        <td>Soyadınız: </td> <td><input type="text" placeholder="Soyadınız"></td>
+                    </tr>
+                    <tr><td>Mail: </td> <td><input type="email" placeholder="Mail"></td>
+                        <td>Telefon no. : </td> <td><input type="number" placeholder="Telefon numarası"></td>
+                    </tr>
+                    <tr><td colspan="2">Mesajınız: <textarea cols="30" rows="4" placeholder="Mesajınız"></textarea></td>
+                    </tr>
+                    <tr><td colspan="2"><div onclick="kayit()">Kayıt Ol</div></td>
+                    </tr>
+                </table>
+            </form>
+            <button class="btn2" id="btn2"></button>
+            <div class="footer">
+                <div class="footer-box">
+                    <h4>Dersler</h4>
+                    <a href="https://www.youtube.com/watch?v=l1w6jX7pLTk" target=_blank>Scratch 1</a>
+                    <a href="https://www.youtube.com/watch?v=zUl5hmTrwS4" target=_blank>Scratch 2</a>
+                    <a href="https://www.youtube.com/watch?v=zUl5hmTrwS4" target=_blank>Scratch 3</a>
+                    <a href="https://www.youtube.com/watch?v=zUl5hmTrwS4" target=_blank>Scratch 4</a>
+                    <a href="https://www.youtube.com/watch?v=zUl5hmTrwS4" target=_blank>Scratch 5</a>
+                </div>
+                <div class="footer-box">
+                    <h4>Topluluk</h4>
+                    <a href="https://en.scratch-wiki.info/" target=_blank>Scratch Wiki</a>
+                    <a href="https://scratch.mit.edu/#" target=_blank>Scratch </a>
+                    <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" target=_blank>Scratch w3</a>
+                    <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" target=_blank>Scratch </a>
+                </div>
+                <div class="footer-box">
+                    <h4>Hukuki</h4>
+                    <a href="gizlilik-ilkeleri.html" target=_blank>Gizlilik İlkeleri</a>
+                    <a href="kullanim-sartlari.html" target=_blank>Kullanım Şartları </a>
+                    <a href="gizlilik-ilkeleri.html" target=_blank>Gizlilik İlkeleri</a>
+                    <a href="kullanim-sartlari.html" target=_blank>Kullanım Şartları </a>
+                </div>
+                <div class="footer-box">
+                    <h4>Topluluk</h4>
+                    <a href="https://en.scratch-wiki.info/" target=_blank>Scratch Wiki</a>
+                    <a href="https://scratch.mit.edu/#" target=_blank>Scratch </a>
+                    <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" target=_blank>Scratch w3</a>
+                    <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" target=_blank>Scratch </a>
+                </div>
+                <div class="footer-box">
+                    <h4>Hukuki</h4>
+                    <a href="https://en.scratch-wiki.info/" target=_blank>Scratch Wiki</a>
+                    <a href="https://scratch.mit.edu/#" target=_blank>Scratch </a>
+                    <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" target=_blank>Scratch w3</a>
+                    <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" target=_blank>Scratch </a>
+                </div>
+            </div>
+            <div class="footer-feedback">Sıla Yazılım | Tüm Hakları Saklıdır.</div>
+        </div>
+    </div>
+
+    <script>
+        function kayit(){
+            alert("Kaydınız Tamamlandı!!");
+        }
+    </script>
+</body>
+
+</html>
